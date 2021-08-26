@@ -1,0 +1,61 @@
+<html>
+<head>
+
+  <link rel="stylesheet" type="text/css" href="form.css">
+
+</head>
+
+<body>
+  <div class="container">
+  <div class="row">
+    <div class="column">
+              <img src="1.jpeg">
+    </div>
+      <div class="column">
+          <h3 class="widget-title">
+          <div id="form">
+            <div id="wrap">
+              <h1>FIND A LAWYER</h1>
+              <form id='a-form' method="POST" action="">
+            <h3>City</h3>
+            <div><input name="City" placeholder="City" type="text" class='form'></div>
+            <h3>Select Practice Areas</h3>
+            <div><input name="Practice Areas" placeholder="Practice Areas" type="text" class='form'></div>
+            <h3>Select Courts</h3>
+            <div><input name="Courts" placeholder="Courts" type="text" class='form'></div>
+            <h3>Select language</h3>
+            <div><input name="lang" placeholder="Language" type="text" class='form'></div>
+            <h3>Experience</h3>
+            <div>
+              <select name="experience" id="Experience" class="select-drop" style="width:240px;" class='form'>
+              <option value="">Select Experience</option>
+              <option value="5">&lt; 5 Years</option>
+              <option value="510">5-10 Years</option>
+              <option value="1015">10-15 Years</option>
+              <option value="15">&gt; 15 Years</option>
+            </select>
+          </div>
+          <h3>Gender</h3>
+          <div>
+            <select name="gender" id="gender" class="select-drop" style="width:240px;">
+              <option value="">Select Gender</option>
+              <option value="male">Male</option>
+              <option value="female">Female</option>
+            </select>
+          </div>
+
+            <h3>ZIP CODE</h3>
+            <input id="zip" name="zip" type="text" pattern="[0-6]*" class='form'>
+            <div>
+                <button type="submit" class="submit_btn">Filter</button>
+            </div>
+            </form>
+            </div>
+          </div>
+    </div>
+</div>
+</div>
+
+</body>
+
+</html>

@@ -1,0 +1,67 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+}
+#form{
+    flex:1;
+    padding:10px;
+}
+#wrap{
+    background-color: black;
+    color:white;
+    border-radius:18px;
+    margin:10px;
+    height:wrap-content;
+    text-align: start;
+    padding-bottom: 40px;
+}
+#wrap h1{
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 20px;
+}
+#a-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#a-form div{
+    margin: 5px;
+    padding: 4px;
+    
+}
+#a-form h3{
+    margin: 0px 20px;
+    color: whitesmoke;
+    font-size: 4vh;
+}
+.form{
+    width: 85%;
+    height: 30px;
+    text-align: center;
+    background-color:cornsilk;
+    margin-left: 25px;
+    color: black;
+}
+.submit_btn{
+    margin:40px 20px;
+    width: 40%;
+    border: 0px;
+    border-radius:50px;
+    height:45px;
+    background-color: rgb(255, 202, 88);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+}

@@ -1,0 +1,85 @@
+#body {
+    margin: 0px;
+    padding: 0px;
+}
+
+#container{
+    display: flex;
+    margin-top: 10px;
+    padding-bottom: 20px;
+    background-color: rgba(243, 243, 243, 0.208);
+    border-radius: 5px;
+}
+#wrapper{
+    flex:2;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+#wrapper h1{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+	background-color:rgb(245, 205, 149);
+	color:rgba(74, 104, 131, 0.956);
+	padding:9px;
+	margin:10px;
+    font-size: 35px;
+}
+#form{
+    flex:1;
+    padding:10px;
+}
+#wrap{
+    background-color: black;
+    color:white;
+    border-radius:18px;
+    margin:10px;
+    height:wrap-content;
+    text-align: start;
+    padding-bottom: 40px;
+    position: sticky;
+    top:-5px;
+}
+#wrap h1{
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 20px;
+}
+#a-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#a-form div{
+    margin: 5px;
+    padding: 4px;
+    display: flex;
+    justify-content: space-between;
+}
+#a-form h3{
+    margin: 0px 20px;
+    color: whitesmoke;
+    font-size: 4vh;
+}
+.form{
+    width: 85%;
+    height: 30px;
+    text-align: center;
+    background-color:cornsilk;
+    margin-left: 25px;
+    color: black;
+}
+.submit_btn{
+    margin:40px 20px;
+    width: 40%;
+    border: 0px;
+    border-radius:30px;
+    height:49px;
+    background-color: rgb(255, 202, 88);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+	padding:5px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
